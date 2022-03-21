@@ -1,7 +1,7 @@
 
 ## Performance Report
 
-There are a total of 4 aspects in Sentihood dataset; general, price, safety and transit location. The tables below show the performance of the Roberta QA M model (with context from last 4 layers) for each aspect. We report the macro averaged precision, recall, f1-score and accuracy on the test set . 
+There are a total of 4 aspects in Sentihood dataset; general, price, safety and transit location. The best performance was obtained by Roberta model in which the embeddings corresponding to the last 4 layers were used for classification, this model used QA M dataset. The tables below show the performance of the Roberta QA M model (with context from last 4 layers) for each aspect. We report the macro averaged precision, recall, f1-score and accuracy on the test set . 
 
 The performance for safety aspect is the best across all the four metrics metrics, while general and transit location both have similar performance which is worse than safety and price. 
 The low performance on general aspect can be attributed to the ambigious nature of the aspect definition itself, which makes it particularly hard to model. The transit location aspect is not expressed in a straightforward manner in the dataset, unlike price and safety aspect where keywords like "affordable", "expensive" and "safety"  are predominantly used. 
