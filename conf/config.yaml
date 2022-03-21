@@ -1,0 +1,31 @@
+model:
+    type: 'BertModel'
+    name: 'roberta-base'
+    num_labels: 3
+    finetune_encoder: False
+    
+trainer:
+    epochs: 6
+    gpus: [2]
+    
+wandb:
+    project: "Sentihood Test"
+    name: "Roberta"
+
+dataloader:
+    train_bs: 32
+    val_bs: 32
+    test_bs: 32
+    
+checkpoint: 
+    dir: 'model_ckpt'
+    
+    
+optimizer:
+    lr: 2e-5
+    
+
+defaults:
+    - dataset: QA_M
+    
+    

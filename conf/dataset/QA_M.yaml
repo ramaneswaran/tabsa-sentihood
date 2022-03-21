@@ -1,0 +1,3 @@
+train_path: '../data/BERT-pair/train_QA_M.csv'
+val_path: '../data/BERT-pair/dev_QA_M.csv'
+test_path: '../data/BERT-pair/test_QA_M.csv'
