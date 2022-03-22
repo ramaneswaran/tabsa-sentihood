@@ -1,6 +1,6 @@
 <h1 align="center">
   <br />
-  Task Aspect Based Sentiment Analysis - Sentihood
+  Targeted Aspect Based Sentiment Analysis - Sentihood
 </h1>
 
 This repo contains TABSA models for Sentihood dataset. The models implemented here use the auxiliary sentence approach introduced in [Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence](https://arxiv.org/abs/1903.09588v1)
